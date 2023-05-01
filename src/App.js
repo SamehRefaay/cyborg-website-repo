@@ -1,11 +1,13 @@
 import "./App.css";
-import { Header, Container, Footer } from "./sections/index";
+import { Header, Container, Footer, Hero } from "./sections/index";
 
 function App() {
   return (
     <div className="App container">
       <Header />
-      <Container></Container>
+      <Container>
+        <Hero />
+      </Container>
       <Footer />
     </div>
   );
